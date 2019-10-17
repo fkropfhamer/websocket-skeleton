@@ -16,15 +16,7 @@ const server = http.createServer((req, res) => {
             res.end();
         }
     })
-}).listen(8080);
+})
 
-const io = require('socket.io')(server);
-
-io.on('connection', socket => {
-    console.log('a user connected');
-
-    socket.on('disconnect', () => {
-       console.log('user disconnected'); 
-    });
-});
+module.exports = server;
 
