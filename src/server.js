@@ -1,7 +1,7 @@
-const http = require('http');
-const fs = require('fs');
-const url = require('url');
-const path = require('path');
+import http from 'http';
+import fs from 'fs';
+import url from 'url';
+import  path from 'path';
 
 const config = {
     root: '/../public',
@@ -30,5 +30,5 @@ const server = http.createServer((req, res) => {
     })
 })
 
-module.exports = server;
+export default server;
 
