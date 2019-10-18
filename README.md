@@ -2,6 +2,8 @@
 ### `DEV SERVER: npm run dev`
 ### `START: npm start`
     
+### `BUILD SERVER: npm run build:server`
+
 ### `DEV FRONTEND: npm run watch`
 ### `BUILD FRONTEND: npm run build`
 
@@ -10,5 +12,6 @@
 used packages:   
 - socket.io
 - webpack
+- babel
             
 
