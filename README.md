@@ -1,3 +1,11 @@
+# Websocket-Skeleton
+## required: `nodejs` and `npm`
+## to start:
+## 1. `npm install`
+## 2. `npm start`
+## 3. open Browser go to `localhost:8080`
+
+
 ### `INSTALL: npm install`
 ### `DEV SERVER: npm run dev`
 ### `START: npm start`
