@@ -1,4 +1,5 @@
 import Canvas from './canvas';
+import '../css/index.css';
 
 let canvas;
 let socket;
