@@ -21,5 +21,8 @@ used packages:
 - socket.io
 - webpack
 - babel
-            
 
+eslint:
+- airbnb
+- prettier
+            
