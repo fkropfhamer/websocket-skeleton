@@ -5,7 +5,9 @@
 .vscode/
 .DS_Store
 
-/public/js
+/public
 /dist
 
 npm-debug.log*
+
+.idea/
