@@ -12,7 +12,7 @@ const draw = () => {
   canvas.drawRect(x, x, 200, 200, '#FF0000');
 };
 
-const gameLoop = (timeStamp) => {
+const gameLoop = () => {
   draw();
   window.requestAnimationFrame(gameLoop);
 };
