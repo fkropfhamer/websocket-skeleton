@@ -26,3 +26,6 @@ eslint:
 - airbnb
 - prettier
             
+Docker commands:
+- BUILD: `docker build -t node-websocket-test:latest .`
+- RUN: `docker run -it -p 9002:8080 node-websocket-test:latest`
