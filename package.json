@@ -36,11 +36,12 @@
     "lint:prettier": "prettier --check '{**/*,*}.{js,jsx,json}'",
     "lint": "eslint . -c .eslintrc.json --ext js,json",
     "lint:fix": "prettier --write '{**/*,*}.{js,jsx,json}'",
-    "start": "npm run build:server && npm run build && node dist/index.js",
+    "start": "npm run build && node dist/index.js",
     "dev": "nodemon --exec babel-node src/index.js",
-    "build": "webpack --mode production",
+    "build:frontend": "webpack --mode production",
     "watch": "webpack --watch --mode development",
-    "build:server": "babel src -d dist"
+    "build:server": "babel src -d dist",
+    "build": "npm run build:frontend && npm run build:server"
   },
   "author": "",
   "license": "ISC"
